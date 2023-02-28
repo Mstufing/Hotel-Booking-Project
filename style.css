@@ -1,0 +1,1091 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Main Container */
+
+/* Delete all margins in main divs */
+
+.main-container{
+    max-width: 1512px;
+    height: 6090px;
+    margin: auto;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Nav Bar Section */
+.nav-bar-main-div{
+    width: 1352px;
+    height: 62px;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    /* margin: 80px 80px 40px 80px; */
+    align-content: center;
+    align-items: center;
+}
+
+/* Nav Bar Left Section */
+
+.nav-bar-left-section{
+    width: 30%;
+}
+
+.nav-bar-left-section h2{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: Playfair Display;
+    font-style: italic;
+    line-height: 43px;
+    color: #583101;
+}
+
+/* Nav Bar Right Section */
+
+.nav-bar-right-section{
+    width: 60%;
+}
+
+.nav-bar-right-section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.nav-bar-right-section ul li{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: poppins;
+    line-height: 30px;
+    color: #121619;
+}
+
+.nav-bar-right-section ul .home{
+    color: #583101;
+}
+
+.nav-bar-right-section ul li span{
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: poppins;
+    line-height: 30px;
+    color: white;
+}
+
+.nav-bar-right-section ul button{
+   width: 147px;
+   height: 62px;
+   background-color: #583101;
+   border: none;
+   cursor: pointer;
+}
+
+/* Check IN- Check OUT-div */
+.check-in-check-out-main-container{
+    width: 1200px;
+    height: 160px;
+    margin: auto;
+    background-color: #583101;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+.inner-check-in-out-div{
+    width: 1024px;
+    height: 102px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-check-in-out-div .left-section{
+    width: 690px;
+    height: 102px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-check-in-out-div .left-section .inner-left-section-div{
+    width: 206px;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner-check-in-out-div .left-section .inner-left-section-div h3{
+   font-size: 20px;
+   font-weight: 400;
+   font-family: poppins;
+   line-height: 30px;
+   color: #FFEDD8;
+}
+
+.left-section .inner-left-section-div .date-icon-div{
+    width: 206px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.left-section .inner-left-section-div .date-icon-div h2{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: poppins;
+    line-height: 48px;
+    color: #FFEDD8;
+}
+
+
+.left-section .inner-left-section-div .date-icon-div img{
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.inner-check-in-out-div .right-section{
+    width: 334px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.inner-check-in-out-div .right-section button{
+    width: 260px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #583101;
+    gap: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.inner-check-in-out-div .right-section button span{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: poppins;
+    line-height: 30px;
+    color: #FFEDD8;
+}
+
+/* Header Section */
+
+.header-main-container{
+    background-image: url(/images/first-page-image.png);
+    width: 100%;
+    height: 820px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.inner-header-txt-info-div{
+    width: 940px;
+    height: 400px;
+}
+
+.inner-header-top-div{
+    height: 265px;
+    /* width: 940px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-content: space-between; */
+    align-items: center;
+}
+
+.inner-header-top-div h3{
+  font-size: 32px;
+  font-weight: 500;
+  font-family: playfair display;
+  line-height: 43px;
+  color: #FFEDD8;
+}
+
+.inner-header-top-div h2{
+    font-size: 56px;
+    font-weight: 500;
+    font-family: playfair display;
+    line-height: 75px;
+    color: #FFEDD8;
+    text-align: center;
+}
+
+.inner-header-bottom-div{
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-content: end;
+    align-items: end;
+}
+
+.inner-header-bottom-div button{
+    width: 201px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    gap: 8px;
+}
+
+.inner-header-bottom-div button span{
+    /* padding: 16px 24px; */
+    font-size: 20px;
+    font-weight: 500;
+    font-family: poppins;
+    line-height: 30px;
+    color: #FFEDD8;
+}
+
+.inner-header-bottom-div button img{
+    color: #FFEDD8;
+}
+
+/* Second Page */
+
+.second-page-main-container{
+    width: 1358px;
+    height: 714px;
+    margin: auto;
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.secon-page-left-section{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* How to put images ? using position? */
+
+.secon-page-right-section{
+    width: 50%;
+    height: 713px;
+    position: relative;
+}
+
+/* .secon-page-right-section .image115{
+    width: 376px;
+    height: 486px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} */
+
+.secon-page-right-section .image116{
+    /* width: 474px;
+    height: 684px; */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.inner-second-page-top-div .about-us-div{
+    width: 274px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.inner-second-page-top-div .about-us-div span{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: playfair display;
+    line-height: 32px;
+    color: #583101;
+}
+
+.inner-second-page-top-div .about-us-icon-image-div{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.inner-second-page-top-div .diamon-luxury-div{
+    width: 482px;
+    height: 101px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner-second-page-top-div .diamon-luxury-div h3{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: playfair display;
+    line-height: 54px;
+    color: #121619;
+}
+
+.inner-second-page-top-div{
+    width: 554px;
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner-second-page-top-div p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: poppins;
+    line-height: 30px;
+    color: #121619;
+}
+
+.inner-second-page-buttom-div{
+    width: 554px;
+    height: 120px;
+    display: flex;
+    align-items: end;
+}
+
+.inner-second-page-buttom-div button{
+    width: 188px;
+    height: 62px;
+    background-color: #583101;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: none;
+    gap: 8px;
+}
+
+.inner-second-page-buttom-div button span{
+    color: #FFEDD8;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: poppins;
+    line-height: 30px;
+}
+
+/* Third Page  */
+
+.third-page-main-container{
+    width: 1352px;
+    height: 1088px;
+    margin: auto;
+    /* margin-top: 100px; */
+}
+
+.third-page-top-section{
+    width: 1352px;
+    height: 168px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-page-top-section p{
+    width: 520px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: poppins;
+    line-height: 30px;
+    color: #121619;
+}
+
+.our-choice-div{
+    width: 308px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.our-choice-div h4{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: playdair display;
+    line-height: 32px;
+    color: #583101;
+}
+
+.our-choice-image-icon-div{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.inner-third-page-div{
+    width: 485px;
+    height: 101px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner-third-page-div h3{
+   font-size: 40px;
+   font-weight: 500;
+   font-family: playfair display;
+   line-height: 54px;
+   color: #583101;
+}
+
+.third-page-bottom-section{
+    width: 1349px;
+    height: 904px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.third-page-image1-div{
+    width: 434px;
+    height: 608px;
+    background-image: url(/images/third-page-image1.png);
+    position: relative;
+}
+
+.third-page-image2-div{
+    width: 899px;
+    height: 608px;
+    background-image: url(/images/third-page-image2.png);
+    position: relative;
+}
+
+.third-page-image1-2-div{
+    width: 1349px;
+    height: 608px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-page-image3-4-5-div{
+    width: 1349px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-page-button-div button{
+    width: 162px;
+    height: 62px;
+    border: none;
+}
+
+.third-page-button-div button span{
+   font-size: 20px;
+   font-weight: 500;
+   font-family: poppins;
+   line-height: 30px;
+   color: #583101;
+}
+
+.third-page-button-div h3{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: #FFEDD8;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: playfair display;
+    line-height: 27px;
+ }
+
+ .third-page-image3-div{
+    background-image: url(/images/third-page-image3.png);
+    width: 434px;
+    height: 280px;
+    position: relative;
+ }
+
+ .third-page-image4-div{
+    background-image: url(/images/third-page-image4.png);
+    width: 434px;
+    height: 280px;
+    position: relative;
+ }
+
+ .third-page-image5-div{
+    background-image: url(/images/third-page-image5.png);
+    width: 434px;
+    height: 280px;
+    position: relative;
+ }
+
+/* Fourth Page */
+
+.fourth-page-main-container{
+    width: 1346px;
+    height: 672px;
+    margin: auto;
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fourth-page-right-section{
+    width: 545px;
+    height: 669px;
+}
+
+.fourth-page-right-section-top-div{
+    width: 545px;
+    height: 543px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fourth-page-right-section-bottom-div{
+    width: 545px;
+    height: 126px;
+    display: flex;
+    align-content: end;
+    align-items: end;
+}
+
+.featured-offer-div{
+    width: 365px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-offer-div h3{
+   font-size: 24px;
+   font-weight: 500;
+   font-family: playfair display;
+   line-height: 32px;
+   color: #583101;
+}
+
+.featured-offer-image-icon-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.economy-luxe-room-div{
+    width: 502px;
+    height: 279px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.economy-luxe-room-div h2{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: poppins;
+    line-height: 30px;
+    color: #121619;
+}
+
+.economy-luxe-room-div p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: poppins;
+    line-height: 30px;
+    color: #121619;
+}
+
+.inner-fourth-page-top-div{
+    width: 502px;
+    height: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.discount-div{
+    width: 246px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stay-months-div .discount-div h3{ 
+    font-size: 64px;
+    font-weight: 500;
+    font-family: playfair display;
+    line-height: 85px;
+}
+
+.stay-months-div .discount-div h4{ 
+    font-size: 24px;
+    font-weight: 500;
+    font-family: playfair display;
+    line-height: 32px;
+    display: flex;
+    align-items: end;
+}
+
+.stay-months-div{
+    width: 247px;
+    height: 173px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stay-months-div h3{
+   font-size: 24px;
+   font-weight: 500;
+   font-family: poppins;
+   line-height: 36px;
+}
+
+.discount-line-div{
+    width: 271px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount-main-div{
+    width: 545px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-page-right-section-bottom-div button{
+    width: 180px;
+    height: 62px;
+    background-color: #583101;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.fourth-page-right-section-bottom-div span{
+    color: #FFEDD8;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: poppins;
+    line-height: 30px;
+}
+
+/* Fifth Page */
+
+.fifth-page-main-container{
+    width: 1349px;
+    height: 951px;
+    margin: auto;
+    /* margin-top: 100px; */
+}
+
+.fifth-page-top-div{
+    width: 934px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.our-spaces-div{
+    width: 302px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-spaces-div h3{
+   font-size: 24px;
+   font-weight: 500;
+   font-family: playfair display;
+   line-height: 32px;
+   color: #583101;
+}
+
+.our-spaces-image-icon-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.check-our-hotel-div{
+    width: 934px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.check-our-hotel-div h2{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: poppins;
+    line-height: 30px;
+    color: #121619;
+}
+
+.check-our-hotel-div p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: poppins;
+    line-height: 30px;
+    color: #121619;
+}
+
+.fifth-page-bottom-div{
+    width: 1349px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner-fifth-page-info-div{
+    width: 1349px;
+    height: 40px;
+}
+
+.inner-fifth-page-info-div ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-fifth-page-info-div ul li{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: poppins;
+    line-height: 36px;
+    color: #121619;
+}
+
+.inner-fifth-page-image-div{
+    width: 1349px;
+    height: 608px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Sixth Page */
+
+.sixth-page-main-container{
+    width: 1349px;
+    height: 561px;
+    margin: auto;
+    /* margin-top: 100px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sixth-page-top-div{
+    width: 934px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.faqs-div{
+    width: 216px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faqs-div h3{
+   font-size: 24px;
+   font-weight: 500;
+   font-family: playfair display;
+   line-height: 32px;
+   color: #583101;
+}
+
+.faqs-image-icon-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.frequently-asked-question-div{
+    width: 934px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.frequently-asked-question-div h2{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: poppins;
+    line-height: 30px;
+    color: #121619;
+}
+
+.frequently-asked-question-div p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: poppins;
+    line-height: 30px;
+    color: #121619;
+}
+
+.sixth-page-bottom-div{
+    width: 1140px;
+    height: 320px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.inner-sixth-page-main-top-div{
+    width: 1140px;
+    height: 226px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner-sixth-page-top-div{
+    width: 1140px;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner-sixth-page-p-img-div{
+    width: 1140px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.inner-sixth-page-p-img-div p{
+    font-size: 20px;
+    font-family: 500;
+    font-family: poppins;
+    line-height: 30px;
+    color: #121619;
+}
+
+.inner-sixth-page-p-img-div img{
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.sixth-page-contact-us-div{
+    width: 1140px;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: end;
+}
+
+.inner-sixth-page-contact-us-div{
+    width: 480px;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.inner-sixth-page-contact-us-div h3{
+    font: 20px;
+    font-weight: 500;
+    font-family: poppins;
+    line-height: 30px;
+    color: #583101;
+}
+
+.contact-us-button-div button{
+    width: 192px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #583101;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-us-button-div span{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: poppins;
+    line-height: 32px;
+    color: #FFEDD8;
+}
+
+/* Footer Main Container */
+
+.footer-main-container{
+    width: 100%;
+    height: 304px;
+    margin: auto;
+    /* margin-top: 100px; */
+    background-color: #583101;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.footer-left-section{
+    width: 241px;
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 24px;
+}
+
+.footer-left-section h3{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: playfair display;
+    font-style: italic;
+    line-height: 42px;
+    color: #FFEDD8;
+}
+
+.footer-left-section h4{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: playfair display;
+    font-style: italic;
+    line-height: 27px;
+    color: #FFEDD8;
+}
+
+.footer-left-section .face-insta-twitter-div{
+    width: 120px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.footer-left-section div .facebook-icon{
+    width: 7.2px;
+    height: 14.4px;
+}
+
+.footer-left-section div .instagram-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-left-section div .twitter-icon{
+    width: 18.1px;
+    height: 16px;
+}
+
+.footer-right-section{
+    width: 406px;
+    height: 234px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;
+    align-content: center; */
+}
+
+.learn-more-div{
+    width: 147px;
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.inner-resource-info-div{
+    width: 142px;
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resource-div{
+    width: 139px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.inner-resource-info-div{
+    width: 123px;
+    height: 182px;
+    display: flex;
+    flex-direction: column;
+}
+
+.learn-more-div h2,
+.resource-div h2{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: poppins;
+    line-height: 36px;
+    text-align: center;
+    color: #FFEDD8;
+}
+
+.learn-more-div .inner-learn-more-info-div ul,
+.resource-div .inner-resource-info-div ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.learn-more-div .inner-learn-more-info-div ul li,
+.resource-div .inner-resource-info-div ul li{
+    font-size: 20px;
+    font-weight: 400;
+    font-weight: poppins;
+    line-height: 30px;
+    color: #FFEDD8;
+}
